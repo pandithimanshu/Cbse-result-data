@@ -18,3 +18,16 @@ for i in range(25658116,25658196):
     driver.find_element_by_xpath('/html/body/table[3]/tbody/tr/td/font/center[2]/form/div[1]/center/table/tbody/tr[3]/td/input[1]').click()
     page_source = driver.page_source
     soup = BeautifulSoup(page_source,'html.parser')
+
+    print(student_info)
+        result_file.write(f'{student_info}\n')
+  #headings
+    head = soup.find_all('table')[5].find_all('tbody')[0].find_all('tr')[0]
+    for j in range(6):
+        headings = f"{head.find_all('td')[j].text} |"
+        result_file.write(f'{headings}')
+        print(headings,end='')
+    print(end='\n')
+
+
+#this will shows all the data in console
