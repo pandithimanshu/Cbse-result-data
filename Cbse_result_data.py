@@ -1,3 +1,6 @@
+#this will also shows you print on screen
+print('welcome') 
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
