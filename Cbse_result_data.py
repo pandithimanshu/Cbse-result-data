@@ -115,4 +115,5 @@ print('\n'*10,'now td (data of student) comes\n')
         student_info= f"{t1.find_all('tr')[y].find_all('td')[0].text} = {t1.find_all('tr')[y].find_all('td')[1].text}"
 
 #main
+print('hello') 
 
