@@ -83,16 +83,22 @@ for i in range(25658116,25658196):
         headings = f"{head.find_all('td')[j].text} |"
         result_file.write(f'{headings}')
         print(headings,end='')
-    print(end='\n')
+    print('great',end='\n')
 
 
 #this will shows all the data in console
 
     print('\n'*10,'now td (data of student) comes\n')
     cs_practicles = {}
-  # student information
+  # #student information
     t1 = soup.find_all('table')[4].find_all('tbody')[0]
     for y in range(5):
         student_info= f"{t1.find_all('tr')[y].find_all('td')[0].text} = {t1.find_all('tr')[y].find_all('td')[1].text}"
+
+
+
+
+
+
 #main
 #>>>>>>> main
