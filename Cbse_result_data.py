@@ -53,7 +53,7 @@ for i in range(25658116,25658196):
         result_file.write('\n')
     except:
         print('student have only 5 subjects not 6')
-
+        print ('it is not in student data') 
 
 
 
