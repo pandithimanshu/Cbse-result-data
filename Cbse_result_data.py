@@ -117,3 +117,5 @@ print('\n'*10,'now td (data of student) comes\n')
 #main
 print('hello') 
 
+print('thanks for using our progran') 
+
